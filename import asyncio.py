@@ -6,8 +6,8 @@ import ssl
 
 # CONFIGURE
 CONCURRENT_REQUESTS = 200
-TARGET_URL = 'https://localhost:8080/api/loans/repayments/current-month/excel'  # <-- Replace with your actual endpoint
-BEARER_TOKEN = 'eyJhbGciOIiOiJodWJlcnQua3dpemVyYUBtdG4uY29tIiwiaWF0IjoxNzQ0NTkwODU1LCJleHAiOjE3NDQ1OTQ0NTV9.p0Y3bkA7sTLV6R2AesIn4a5PyEj9RZz8D9W3Q4os3Sw'  # <-- Put your actual token here
+TARGET_URL = 'https://localhost:8080//'  # <-- Replace with your actual endpoint
+BEARER_TOKEN = 'eyJ.............................................................................'  # <-- Put your actual token here
 
 # Disable SSL verification for localhost (safe only for testing)
 ssl_context = ssl.create_default_context()
